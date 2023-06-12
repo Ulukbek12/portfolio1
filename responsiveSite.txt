@@ -1,0 +1,24 @@
+1:в адаптации всегда лучше использовать проценты нежели чем пиксели и тд.
+2: чтобы использовать margin: auto;
+нужно чтобы элемент был block.
+3: em-это сумма дефолтных процентов т е если дефолт 16px то 1em-это 16px
+4: rem is better than em in short
+5: useful breakpoints 
+480px
+768px
+1024px
+1280px
+
+max-width adn etc useful for 
+responsive 
+flex-wrap: wrap будет занимать все свободные места
+use with
+flex-basis:220px (if the item less than 220px,the flew-wrap works.The reason why we need flex-basis)
+flex-grow: 1
+flex: 1 some px
+gap: 0.5 rem - space between flex items
+removing space in container
+
+display:grid;
+grid-template-columns: 100px 200px 300px 400 (сколько в одной колоне будет объектов и по скоко px)
+grid-template-rows: 750px 500px (тоже самое только длина объекта)
